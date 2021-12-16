@@ -79,6 +79,93 @@ header {
     transition: all 0.8s ease;
   }
 
+  /* container ================================ */
+
+  .container {
+    width: 80%;
+    min-width: 360px;
+    max-width: 720px;
+    margin: 0 auto;
+    margin-top: 56px;
+  }
+  
+  .container >.index-table-wrapper>a{
+    color: #6c7686;
+  }
+  
+  .container >.index-table-wrapper>a:hover{
+    color:#c757beaf;
+    transition: 0.5s;
+  }
+  
+  
+  .container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #a64ccf85;
+    height: 54px;
+    padding: 0 90px;
+    border-radius: 27px;
+  }
+  
+  .btn:hover {
+    background-color: #c757beaf;
+  }
+  
+  
+  .container-header .new-button {
+    background-color:#ffffffdc;
+    color: #6c7686;
+    border-radius: 30px;
+    font-size: 14px;
+    width: 120px;
+    height: 45px;
+    line-height: 43px;
+    text-align: center;
+    border: 2px solid #a5948448;
+  }
+  .container-header .new-button:hover {
+    transition: all 0.1s ease;
+    box-shadow: 3px 8px #7e8f8d7a;
+    position: relative;
+    bottom: 2px;
+    right: 1px;
+  }
+  
+  .container-header .new-button:active {
+    box-shadow:none;
+    position: relative;
+    top: 2px;
+    left: 1px;
+  }
+  
+  
+  .cancel-button {
+    margin-top: 16px;
+    margin-left: 2px;
+    font-weight: 600;
+    color: #bac6d3;
+    text-decoration: underline;
+    display: inline-block;
+  }
+  
+  .cancel-button:hover {
+    color: #693a0452;
+  }
+  .container-header h1 {
+    font-size: 24px;
+  }
+
 /* index ================================ */
 .table-head {
     display: flex;
@@ -163,7 +250,7 @@ header {
   }
 
 /* 最初の色設定 ================================ */
-h1 {
+/* h1 {
     color: rgb(128, 0, 122);
 }
 
@@ -181,4 +268,4 @@ button{
     border: 1px solid gray;
     color: white;
     background-color: tomato;
-}
+} */
