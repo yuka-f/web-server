@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname,"public")))
  
 app.post('/api/v1/quiz', function (req, res) {
     const answer = req.body.answer;
-    if(answer === "2") {
+    if(answer === "ゆか") {
         // res.send("ok!");
         res.redirect("/correct.html")
     }else{

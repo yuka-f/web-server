@@ -5,8 +5,49 @@
         <script src="js/app.js"></script>
     </head>
     <body>
-        <h1>正解！</h1>
-        
-        </form>
+        <header>
+            <div class="header-nav">
+              <!-- <% if (locals.isLoggedIn) {%> -->
+                <a href="/">BEAUTY APP</a>
+                <p>Hi</p>
+              <!-- <% } else {%>
+                <a href="/"></a>
+                <p>Hi</p>
+              <% } %> -->
+              
+              <ul>
+                <!-- <% if (locals.isLoggedIn) {%> -->
+                <li><a href="/index">ミッション一覧</a></li>
+                <!-- <li><a href="/logout">ログアウト</a></li>
+                <% } else {%>
+                <li><a href="/login">ログイン</a></li>
+                <li><a href="/signup">新規登録</a></li>
+                <% } %> -->
+              </ul>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="container-header">
+                <h1>Beauty みっしょん</h1>
+            </div>
+            <div class="index-table-wrapper">
+              <div class="table-head">
+                <span class="id-column">ID</span>
+                <span>TODAYSこんぷりーと</span>
+              </div>
+              <ul class="table-body">
+                  <!-- <% mission.forEach((item) =>{ %> -->
+                    <li>
+                      <div class="item-data">
+                        <span class="id-column"></span>
+                        <span class="name-column"></span>
+                      </div>
+                    </li>
+                  <!-- <% }); %> -->
+                </ul>
+                <a href="/">Topにもどる</a>
+            </div>
+          </div>
     </body>
 </html>
