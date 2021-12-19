@@ -24,10 +24,14 @@
 
   body {
     width:100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 
   .top-wrapper {
     width: 100%;
     position: fixed;
   }
+
+  
 }
