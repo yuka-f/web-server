@@ -150,6 +150,18 @@ header {
     
   }
 
+  /* top画像====================== */
+  .top-image {
+    width: 64%;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .top-image img {
+    max-width: 80%;
+    opacity: 0.9;
+  }
+
   /* container ================================ */
 
   .container {
