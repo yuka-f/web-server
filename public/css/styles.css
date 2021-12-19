@@ -117,6 +117,9 @@ header {
     margin-bottom: 40px;
   }
   
+  .top-image img {
+    width: 500px;
+  }
 
    /* トップ記録するボタン ==========*/
    .top-detail .index-button {
@@ -146,7 +149,7 @@ header {
     transition: all 0.8s ease;
     
   }
-  
+
   /* container ================================ */
 
   .container {
