@@ -79,6 +79,74 @@ header {
     transition: all 0.8s ease;
   }
 
+
+  /* top ================================ */
+  .top-wrapper {
+    max-width: 1200px;
+    min-width: 920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 60px;
+  }
+  
+  .top-detail {
+    width: 36%;
+    min-width: 320px;
+    margin-top: -40px;
+  }
+  
+  .top-detail .subtitle {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  
+  .top-detail .title {
+    font-size: 54px;
+    line-height: 66px;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+  }
+  
+  .top-detail .description {
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+  }
+  
+
+   /* トップ記録するボタン ==========*/
+   .top-detail .index-button {
+    width: 184px;
+    height: 48px;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 600;
+    color:  #d64a687a;
+    background-color: #ffffffab;
+    border: 2px solid   #d64a684f;
+    border-radius: 2px;
+    box-shadow: 0px 3px #7e8f8d7a;
+    cursor: pointer;
+  }
+  
+  .top-detail .index-button:active {
+    position: relative;
+    top:6px;
+    box-shadow: none;
+  }
+  
+  .top-detail .index-button:hover {
+    color: #d64a68ce;
+    background-color:  #faf8f5b7;
+    border: 2px solid  #d64a68ce;
+    transition: all 0.8s ease;
+    
+  }
+  
   /* container ================================ */
 
   .container {
